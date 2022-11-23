@@ -206,7 +206,7 @@
   }
 
   void FSM_atuadorLinear() {
-    unsigned int tempo;
+    unsigned long tempo;
     switch (estadoAtuadorLinear){
       case ESTENDENDO:
         // Se é a primeira vez entrando no estado faça isso
